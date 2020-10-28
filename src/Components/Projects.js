@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Link } from 'react-router-dom';
 import { Tabs, Tab, Grid, Cell, Card, CardText, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 class Projects extends Component {
@@ -105,15 +104,12 @@ class Projects extends Component {
                 
                     <Grid className="section-grid">
                         <Cell col={8}>
-                        <div className="project-text" style={{color: 'whitesmoke',fontFamily: 'lato'}}>                           
+                        <div className="project-text" style={{color: 'whitesmoke',fontFamily: 'lato'}}>
+                                                  
                             <h4 style={{color: 'whitesmoke',fontFamily: 'lato'}}>                           
                             All our websites and applications are built from the ground up! We can do the same for our clients!                              
                             </h4>                       
-                            <h6>
-                            <Link to='/showcase' className="btn-primary" style={{fontFamily: 'lato'}}>
-                                 Showcase
-                            </Link>
-                            </h6>                           
+                                                      
                             {this.toggleCategories()}
                         </div>                       
                         </Cell>                 
@@ -127,3 +123,15 @@ class Projects extends Component {
 
 
 export default Projects
+
+
+/*
+import {Link } from 'react-router-dom';
+<h6>
+                            <Link to='/showcase' className="btn-primary" style={{fontFamily: 'lato'}}>
+                                 Showcase
+                            </Link>
+                            </h6> 
+
+
+*/

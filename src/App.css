@@ -972,12 +972,11 @@
   background: linear-gradient(to top, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-position: center;
-  height: 100vh;
   background-attachment: fixed;
   text-align: center;
   position: fixed;
   width: 98%; 
-  height: 480px;
+  height: 500px;
   font-size: 130%;
 }
 /*
