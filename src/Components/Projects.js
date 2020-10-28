@@ -78,8 +78,8 @@ class Projects extends Component {
                     <CardText style={{letterSpacing: '3px',paddingLeft:'4.5em',color: 'black',fontFamily: 'lato', fontSize: '25px'}}> Portfolio Website
                     </CardText>
                     <CardActions border>
-                        <Button style={{fontFamily: 'lato', fontSize: '18px'}} colored>Website Link</Button>
-                        <Button style={{fontFamily: 'lato', fontSize: '18px'}} colored>View on GitHub</Button>
+                        <Button style={{fontFamily: 'lato', fontSize: '18px'}} colored target="_blank" href='https://www.dominicpatrick.com'>Website Link</Button>
+                        <Button style={{fontFamily: 'lato', fontSize: '18px'}} colored target="_blank" href='https://github.com/DPO80/Portfolio-Site'>View on GitHub</Button>
                     </CardActions>
                     <CardMenu style={{color: 'whitesmoke'}}>
                         <IconButton name="share" />
