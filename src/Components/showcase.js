@@ -1,5 +1,4 @@
 import React from 'react';
-import ListofProjects from '../Components/ListofProjects';
 import ShowcaseContainer from '../Components/ShowcaseContainer';
 import DisplayContainer from '../Components/DisplayContainer';
 
@@ -11,7 +10,7 @@ const Showcase = () => {
             <div className="showcase-bgd" >
                 <ShowcaseContainer />
                 <DisplayContainer />               
-                <ListofProjects />
+                
             </div>  
                 
               
