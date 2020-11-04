@@ -13,6 +13,7 @@ import Projects from './Projects';
 
 
 
+
 const Main = () => (
     <Switch>
         <Route exact path="/" component={LandingPage} />

@@ -9,6 +9,7 @@
     "bootstrap": "^4.5.0",
     "i": "^0.3.6",
     "install": "^0.13.0",
+    "json2mq": "^0.2.0",
     "react": "0.0.0-33c3af284",
     "react-devtools": "^4.7.0",
     "react-dom": "0.0.0-33c3af284",

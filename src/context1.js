@@ -24,7 +24,8 @@ import items from "./data1";
         displayed,
         displayedProjects,
         sortedProjects: displayed,
-        loading: false,       
+        loading: false, 
+             
 }); 
 }
 formatdata1(items) {

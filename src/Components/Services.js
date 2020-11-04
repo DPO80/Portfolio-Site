@@ -1,40 +1,37 @@
 import React, { Component } from 'react';
-import { FaCode,FaSpa,FaDumbbell, FaLaptopCode} from 
-'react-icons/fa';
+import { FaCode, FaCogs, FaCog, FaLaptopCode} from 'react-icons/fa';
 import Title from './Title';
 
 export default class Services extends Component {
     state = {
         services:[
          {
-             icon: <FaCode />,
-             title: "Creative Web Design",
-             info: 'Everything is designed. Few things are designed well. At Ekor, we help you close the gap!'
+             icon: <FaCode/>,
+             title: "Creative Web Designer",
+             info: 'Responsive and mobile friendly tailored design. Ensuring the technical feasibility of UI/UX. Modern and attractive layout!',
          }, 
          {
-            icon: < FaSpa/>,
-            title: "Ekor Healthy Lifestyle",
-            info: 'Live healthy today! Keep your body and mind at its best!'
+            icon: <FaCog/>,
+            title: "Build Reusable Code",
+            info: 'Build reusable code in HTML, CSS and JavaScript with libraries for future use. Translate UI/UX design wireframes to code!',
         },
         {
-            icon: <FaDumbbell/>,
-            title: "EKOR Fitness & Mind",
-            info: 'Physical fitness is good, do not forget your mind!'
+            icon:  <FaLaptopCode/>,
+            title: "Bridge The Gap",
+            info: 'Bridge the gap between UI/UX designers, Graphical designers and Technical implementation. Play an active role on all sides!',
         },
         {
-            icon: <FaLaptopCode />,
-            title: "EKOR Web Development",
-            info: 'Great web development with all functionality! Our offers look good from the inside out!'
+            icon:  < FaCogs/>,
+            title: "Web Development",
+            info: 'Build complete website with all functionality, E-commerce, animated slider, SEO friendly URLs and overall users friendly facing features!',
         },
     ]
 };
     render() {
         return (
             <section className="services">
-                <Title title="Services" />
-                < hr/>
-                
-                    <div className="services-center">
+                <Title title="services" />
+                <div className="services-center">
                     {this.state.services.map((item, index ) => {
             return <article key={index} className="services">
                     <span>{item.icon}</span>

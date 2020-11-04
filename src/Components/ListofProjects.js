@@ -8,11 +8,9 @@ export default class ListofProjects extends Component {
             <>
             
             <section className="Projects-list"> 
-                <Title title="List-Of-Projects"  />                   
-            </section>
-            <div className="Projects-list">
-            <div className="listofprojects-col">
-                
+                <div className="Projectslist-center">
+                <div className="listofprojects-col">  
+                <Title title="List-Of-Projects"/>              
                 <h5 style={{paddingLeft: '23em',fontFamily: 'lato'}}><i className="fa fa-square" aria-hidden="true"/>Veluwe continental Restaurant</h5>
                 <h5 style={{paddingLeft: '23em',fontFamily: 'lato'}}><i className="fa fa-square" aria-hidden="true"/>African-Art-Gallery Web Shop </h5>                       
                 <h5 style={{paddingLeft: '23em',fontFamily: 'lato'}}><i className="fa fa-square" aria-hidden="true"/>Birdview Beach Resort</h5>
@@ -20,12 +18,11 @@ export default class ListofProjects extends Component {
                 <h5 style={{paddingLeft: '23em',fontFamily: 'lato'}}><i className="fa fa-square" aria-hidden="true"/>BMI & Cadence Calculator</h5>
                 <h5 style={{paddingLeft: '23em',fontFamily: 'lato'}}><i className="fa fa-square" aria-hidden="true"/>Wellspring Healthy Lifestyle</h5>
                 <h5 style={{paddingLeft: '23em',fontFamily: 'lato'}}><i className="fa fa-square" aria-hidden="true"/>EKOR Front-End Solutions</h5>
-                <h5 style={{paddingLeft: '23em',fontFamily: 'lato'}}><i className="fa fa-square" aria-hidden="true"/>EKOR HiiT Fitness & Your Mind</h5>
-                               
-            </div>
-            </div>
-           
-        </>
+                <h5 style={{paddingLeft: '23em',fontFamily: 'lato'}}><i className="fa fa-square" aria-hidden="true"/>EKOR HiiT Fitness & Your Mind</h5>                              
+                </div>
+                </div>                  
+            </section>          
+            </>
         );       
         
     }
