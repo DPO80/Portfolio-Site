@@ -4,10 +4,10 @@ import { Footer, FooterSection, FooterDropDownSection, FooterLinkList } from 're
 export default class MoreInfo extends Component {
     render() {
         return (
-            <div className="row">
+            <div className="footer-row">
                 <div>
             
-               <Footer  size="mega">
+               <Footer className="footer-page"  size="mega">
     <FooterSection className="footer-col" type="middle">
         <FooterDropDownSection title="Contact Me">
             <FooterLinkList>
@@ -43,7 +43,7 @@ export default class MoreInfo extends Component {
         </FooterDropDownSection>
     </FooterSection>
     <FooterSection className="footer-text" type="bottom" >
-        <FooterLinkList>
+        <FooterLinkList className="footer-bottom">
             <a href="/#">Privacy </a>
             <p>Copyright &copy; 2020 by dominicpatrick. All rights reserved. </p>
         </FooterLinkList>
