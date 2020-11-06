@@ -17,13 +17,13 @@ class Projects extends Component {
                 
                 <div className="projects-grid">
                 {/*  Restaurant Project 1  textAlign: "center",  */}  
-               <Card shadow={0} style={{width: '470px', margin: 'auto'}}>
-                    <CardTitle style={{color: 'whitesmoke', height: '240px', background: 'url(https://iili.io/d8qrZl.jpg) center / cover'}}></CardTitle>
-                    <CardText style={{ letterSpacing: '3px',paddingLeft:'4.5em', color: 'black',fontFamily: 'lato', fontSize: '25px'}}> Veluwe Continental                      
+               <Card shadow={0} style={{width: '400px', margin: 'auto'}}>
+                    <CardTitle style={{color: 'whitesmoke', height: '140px', background: 'url(https://iili.io/d8qrZl.jpg) center / cover'}}></CardTitle>
+                    <CardText style={{ letterSpacing: '3px',paddingLeft:'2.5em', color: 'black',fontFamily: 'lato', fontSize: '25px'}}> Veluwe Continental                      
                     </CardText>                  
                     <CardActions border>                       
-                    <Button style={{fontFamily: 'lato', fontSize: '18px', marginLeft: '5rem'}} colored target="_blank" href='https://veluwe-continental-restaurant.netlify.app'>Website Link</Button>
-                    <Button style={{fontFamily: 'lato', fontSize: '18px', marginRight: '2rem'}} colored target="_blank" href='https://github.com/DPO80/Veluwe-Continental-Restaurant'>View on GitHub</Button>
+                    <Button style={{fontFamily: 'lato', fontSize: '18px',paddingLeft: '8.5rem'}} colored target="_blank" href='https://veluwe-continental-restaurant.netlify.app'>Link</Button>
+                    <Button style={{fontFamily: 'lato', fontSize: '18px'}} colored target="_blank" href='https://github.com/DPO80/Veluwe-Continental-Restaurant'>GitHub</Button>
                     </CardActions>                   
                     <CardMenu style={{color: 'whitesmoke'}}>
                         <IconButton name="share" />
@@ -37,14 +37,14 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                 {/*  Afroasian Art Gallary Project #2 */}
-                <Card shadow={0} style={{width: '470px', margin: 'auto'}}>
-                    <CardTitle style={{color: 'whitesmoke', height: '240px', background: 'url(https://iili.io/d8qZ8u.jpg) center / cover'}}></CardTitle>
-                    <CardText style={{letterSpacing: '3px',paddingLeft:'4.5em',color: 'black',fontFamily: 'lato', fontSize: '25px'}}> Afro-Art Web Shop 
+                <Card shadow={0} style={{width: '400px', margin: 'auto'}}>
+                    <CardTitle style={{color: 'whitesmoke', height: '140px', background: 'url(https://iili.io/d8qZ8u.jpg) center / cover'}}></CardTitle>
+                    <CardText style={{letterSpacing: '3px',paddingLeft:'2.5em',color: 'black',fontFamily: 'lato', fontSize: '25px'}}> Afro-Art Web Shop 
                     </CardText>
                     <CardActions border>
                                                 
-                    <Button style={{fontFamily: 'lato', fontSize: '18px', marginLeft: '5rem'}} colored target="_blank" href='https://react-africanart-online-store.netlify.app'>Website Link</Button>                     
-                    <Button style={{fontFamily: 'lato', fontSize: '18px', marginRight: '2rem'}} colored target="_blank" href='https://github.com/DPO80/react-africanart-online-store'>View on GitHub</Button>
+                    <Button style={{fontFamily: 'lato', fontSize: '18px', marginLeft: '7rem'}} colored target="_blank" href='https://react-africanart-online-store.netlify.app'>Link</Button>                     
+                    <Button style={{fontFamily: 'lato', fontSize: '18px'}} colored target="_blank" href='https://github.com/DPO80/react-africanart-online-store'>GitHub</Button>
                     </CardActions>
                     <CardMenu style={{color: 'whitesmoke'}}>
                     <IconButton name="share"></IconButton></CardMenu>
@@ -55,14 +55,14 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                 {/*  Birdview Beach Resort #3 */}
-                <Card shadow={0} style={{width: '470px', margin: 'auto'}}>
-                    <CardTitle style={{color: 'whitesmoke', height: '240px', background: 'url(https://iili.io/d8qpZQ.jpg) center / cover'}}></CardTitle>
-                    <CardText style={{letterSpacing: '3px',paddingLeft:'4.5em',color: 'black',fontFamily: 'lato', fontSize: '25px'}}> 
+                <Card shadow={0} style={{width: '400px', margin: 'auto'}}>
+                    <CardTitle style={{color: 'whitesmoke', height: '140px', background: 'url(https://iili.io/d8qpZQ.jpg) center / cover'}}></CardTitle>
+                    <CardText style={{letterSpacing: '3px',paddingLeft:'3.5em',color: 'black',fontFamily: 'lato', fontSize: '25px'}}> 
                     Birdview Resort
                     </CardText>
                     <CardActions border>
-                        <Button style={{fontFamily: 'lato', fontSize: '18px', marginLeft: '3rem'}} colored target="_blank" href='https://birdview-beach-resort.netlify.app'>Website Link</Button>
-                        <Button style={{fontFamily: 'lato', fontSize: '18px', marginRight: '2rem'}} colored target="_blank" href='https://github.com/DPO80/birdview-beach-resort'>View on GitHub</Button>
+                        <Button style={{fontFamily: 'lato', fontSize: '18px', marginLeft: '7.5rem'}} colored target="_blank" href='https://birdview-beach-resort.netlify.app'>Link</Button>
+                        <Button style={{fontFamily: 'lato', fontSize: '18px'}} colored target="_blank" href='https://github.com/DPO80/birdview-beach-resort'>GitHub</Button>
                     </CardActions>
                     <CardMenu style={{color: 'whitesmoke'}}>
                         <IconButton name="share" />
@@ -74,13 +74,13 @@ class Projects extends Component {
                 return(
                 <div className="projects-grid">
                 {/*  Portfolio Website #4 */}
-                <Card shadow={0} style={{width: '470px', margin: 'auto'}}>
-                    <CardTitle style={{color: 'whitesmoke', height: '240px', background: 'url(https://iili.io/3MGyHN.jpg) center / cover '}}></CardTitle>
-                    <CardText style={{letterSpacing: '3px',paddingLeft:'4.5em',color: 'black',fontFamily: 'lato', fontSize: '25px'}}> Portfolio Website
+                <Card shadow={0} style={{width: '400px', margin: 'auto'}}>
+                    <CardTitle style={{color: 'whitesmoke', height: '140px', background: 'url(https://iili.io/3MGyHN.jpg) center / cover '}}></CardTitle>
+                    <CardText style={{letterSpacing: '3px',paddingLeft:'3.2em',color: 'black',fontFamily: 'lato', fontSize: '25px'}}> Portfolio Website
                     </CardText>
                     <CardActions border>
-                        <Button style={{fontFamily: 'lato', fontSize: '18px', marginLeft: '5rem'}} colored target="_blank" href='https://www.dominicpatrick.com'>Website Link</Button>
-                        <Button style={{fontFamily: 'lato', fontSize: '18px', marginRight: '2rem'}} colored target="_blank" href= 'https://github.com/DPO80/Portfolio-Site'>View on GitHub</Button>
+                        <Button style={{fontFamily: 'lato', fontSize: '18px', marginLeft: '7.5rem'}} colored target="_blank" href='https://www.dominicpatrick.com'>Link</Button>
+                        <Button style={{fontFamily: 'lato', fontSize: '18px', }} colored target="_blank" href= 'https://github.com/DPO80/Portfolio-Site'>GitHub</Button>
                     </CardActions>
                     <CardMenu style={{color: 'whitesmoke'}}>
                         <IconButton name="share" />

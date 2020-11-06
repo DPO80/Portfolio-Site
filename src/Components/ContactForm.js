@@ -62,7 +62,6 @@ export default function ContactForm() {
                         </div>
                         <div class="col span-2-of-3">
                            < input className="btn-primary" type="submit" value="Get In Touch" />
-                          
                             
                         </div>
                     </div>
