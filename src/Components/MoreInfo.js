@@ -4,10 +4,12 @@ import { Footer, FooterSection, FooterDropDownSection, FooterLinkList } from 're
 export default class MoreInfo extends Component {
     render() {
         return (
+            <section className="section-info">
             <div className="footer-row">
-                <div>
+                <div className="footer-content">
             
-               <Footer className="footer-page"  size="mega">
+               <Footer className="footer-page"
+                 size="mega">
     <FooterSection className="footer-col" type="middle">
         <FooterDropDownSection title="Contact Me">
             <FooterLinkList>
@@ -51,6 +53,7 @@ export default class MoreInfo extends Component {
 </Footer> 
             </div>
             </div>
+        </section>
         )
     }
 }

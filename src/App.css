@@ -960,23 +960,7 @@ padding-top: 2rem;
     
   }
   /*end of list-of-projects 
-  
-
-.row-col {
-  text-align: center;
-}
-.listofprojects-col i {
-  color: #aa9627;
-  font-family: 'lato';
-  
-}
-*/
-/* End of ListofProjecs.js 
-
-
-
-/* End of ListofProjecs.js */
-
+ 
 /* Projects.js page */
 .projects-grid {
   padding-top: 4rem;
@@ -1018,10 +1002,11 @@ padding-top: 2rem;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 0px;
+  height: 750px;
   width: 100%;
   top: 0;
   left: 0;
+  padding-bottom: 5rem;
   
 }
 .contact-form {
@@ -1055,15 +1040,27 @@ input[type=checkbox] {
   font-family: 'lato';
   font-size: 18px;
   color: whitesmoke;
+  margin-bottom: 1rem;
 }
- 
+
 .input-text {
   font-size: 15px;
 }
-.footer-row {
-  width: 100%; 
-  height: 350px;
+.section-info {
+  background: #333333;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
+.footer-row {
+  
+  width: 100%; 
+  height: 120px;
+  
 }
 
 .footer-social-icon a {
@@ -1071,17 +1068,13 @@ input[type=checkbox] {
 	font-size: 16px;
   margin-left: 4px;
   padding-right: 2rem;
-  
-
-  
 }
+
 .footer-social-icon i {
   font-size: 25px;
 }
 
-.footer-col {
-  padding-top: 6rem;
-}
+
 
 .footer-text {
   margin-bottom: 2rem;
@@ -1090,6 +1083,10 @@ input[type=checkbox] {
 /*.footer-bottom {
   height: 20px
   ;
+}
+.footer-page {
+  padding: 5rem 0;
+  
 }
 */
 
