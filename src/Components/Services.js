@@ -17,12 +17,12 @@ export default class Services extends Component {
         },
         {
             icon:  <FaLaptopCode/>,
-            title: "Bridge The Gap",
+            title: "Bridge The Gap Between UI/UX",
             info: 'Bridge the gap between UI/UX designers, Graphical designers and Technical implementation. Play an active role on all sides!',
         },
         {
             icon:  < FaCogs/>,
-            title: "Web Development",
+            title: "Front-end Web Development",
             info: 'Build complete website with all functionality, E-commerce, animated slider, SEO friendly URLs and overall users friendly facing features!',
         },
     ]

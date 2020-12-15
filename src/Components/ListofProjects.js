@@ -9,7 +9,7 @@ export default class ListofProjects extends Component {
         listofprojects:[
          {
             icon: <MdRestaurant/>,
-            title: "Veluwe Continental",
+            title: "Veluwe Continental Restaurant",
             info: 'Veluwe Continental Restaurant (VCR), is a new premium restaurant, situated in Nunspeet, The Netherlands. Its core value is to bring is to bring affordable healthy meal to busy people that have no time to cook! Subscription plan includes up to 365 days coverage!',
             }, 
             
@@ -25,7 +25,7 @@ export default class ListofProjects extends Component {
         },
         {
             icon:  < FaBriefcase/>,
-            title: "Portfolio Website",
+            title: "DP Portfolio Website",
             info: 'DP Portfolio website provides information and links showcasing Dominic Patrick creative and Frontend development projects. Latest Web Design | Clean code |Websites responsive on any device | Contact/Order form fully functional!',
         },
         {
