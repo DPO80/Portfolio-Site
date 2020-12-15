@@ -30,7 +30,7 @@ export default class ListofProjects extends Component {
         },
         {
             icon:  < FaDumbbell/>,
-            title: "EKOR HiiT30 Fitness & Your Mind",
+            title: "EKOR HiiT30 Fitness & Mind",
             info: 'EKOR HiiT30 is a new 30 minutes high intensity interval training that focuses on physical fitness and mental exercise. Classes are made up of plyometric based workout and cardiovascular fitness, designed to improve strength and build lean muscle!',
         },
         {
